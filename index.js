@@ -62,13 +62,6 @@ function handleGuess(chosenLetter) {
   }
 }
 
-document.addEventListener("keydown", function (event) {
-  let buttonsHTML = "abcdefghijklmnopqrstuvwxyz";
-  if (event.key === answer.indexOf(buttonsHTML)) {
-    handleGuess();
-  }
-});
-
 // Changes the picture when the function is called
 function updateHangmanPicture() {
   document.getElementById("hangmanPic").src = "./images/" + mistakes + ".jpg";
