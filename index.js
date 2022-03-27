@@ -65,7 +65,7 @@ function handleGuess(chosenLetter) {
 // Changes the picture when the function is called
 function updateHangmanPicture() {
   document.getElementById("hangmanPic").src =
-    "https://github.com/TheRealButteryllama/Hangman/blob/master/Images/" +
+    "https://raw.githubusercontent.com/TheRealButteryllama/Hangman/master/Images/" +
     mistakes +
     ".jpg";
 }
