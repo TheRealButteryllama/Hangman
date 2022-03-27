@@ -64,7 +64,7 @@ function handleGuess(chosenLetter) {
 
 // Changes the picture when the function is called
 function updateHangmanPicture() {
-  document.getElementById("hangmanPic").src = "./images/" + mistakes + ".jpg";
+  document.getElementById("hangmanPic").src = "./Images/" + mistakes + ".jpg";
 }
 
 // If the user guesses the word, displays a message and plays the audio.
