@@ -19,6 +19,9 @@ var mikesFavoriteStuff = [
   "legacy",
   "memes",
   "darksouls",
+  "landfall",
+  "homestar",
+  "youtube",
 ];
 
 // Sets the variables used in the functions
